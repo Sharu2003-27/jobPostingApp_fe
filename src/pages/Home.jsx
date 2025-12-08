@@ -67,7 +67,7 @@ function Home () {
             <h1 className="mb-4">All Jobs</h1>
             <div className="row">
                 {filteredJobs.map((job) => (  
-                        <div key={job.id} className="col-md-4 mb-4">
+                        <div key={job._id} className="col-md-4 mb-4">
                             <div className="card p-2">
                               <div className="card-body">
                                 <h4 className="card-title fw-bold">{job.jobTitle}</h4>
