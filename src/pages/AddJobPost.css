@@ -1,0 +1,34 @@
+.add-job-post-section {
+    padding-left: 10rem;
+    padding-right: 20rem;  
+}
+
+@media (max-width: 991px) {
+    .add-job-post-section {
+        padding-left: 1rem;
+        padding-right: 1rem;   
+    }
+}
+
+.post-btn {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.toast-msg {
+  position: fixed;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0d6efd;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 9999;
+}

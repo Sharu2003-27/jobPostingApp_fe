@@ -1,0 +1,87 @@
+.home-main-section {
+  padding-left: 10rem;
+  padding-right: 5rem;
+}
+
+@media (max-width: 1200px) {
+  .home-main-section {
+    padding-left: 6rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .home-main-section {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-main-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.search-section {
+   width: 50%;
+}
+
+.toast-msg {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0d6efd;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+.button-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn {
+  border: none;
+  padding: 0.5rem 2.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.primary-btn:hover {
+  background-color: #0b5ed7;
+}
+
+@media (max-width: 576px) {
+  .button-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.secondary-btn {
+  border: none;
+  padding: 0.5rem 2.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.secondary-btn:hover {
+  background-color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .secondary-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
