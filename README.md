@@ -1,6 +1,6 @@
 # Job Posting App
 
-A full-stack job board application designed for companies to efficiently post and manage job openings, allowing candidates to search, view, and apply to them. Built with React (UI), Node.js + Express (API), and MongoDB (Database).
+A full-stack job board application designed for companies to efficiently post and manage job openings, allowing candidates to search, view, and delete it. Built with React (UI), Node.js + Express (API), and MongoDB (Database).
 
 ---
 
