@@ -31,26 +31,25 @@ Watch a walkthrough (5 minutes) of all major features of this app:
 ## Features
 
 **Job Postings Page (Home)**
-- Displays job listings in a responsive card format.
-- Details Displayed: Job Title, Company Name, Location, and Job Type.
-- Search Bar: Allows users to filter job cards by Job Title.
-- See Details Button: Navigates to the detailed view of the specific job.
-- Delete Button: Instantly removes the job post from the listing using an API call.
+- Displays job listings in a responsive card layout
+- Shows key job details including job title, company name, location, and job type
+- Allows users to search jobs by job title using a search bar
+- Navigates users to a detailed job view using the “See Details” button
+- Deletes a job posting instantly using an API call
 
 **Job Details Page**
-- Displays comprehensive information for a selected job.
-- Information Included: Job Title, Company Name, Location, Salary, Job Type, and Job Description.
-- Qualifications: Renders qualifications as an ordered list.
+- Displays complete information for a selected job
+- Shows job title, company name, location, salary, job type, and job description
+- Renders required qualifications as an ordered list
 
 **Post a Job**
-- Dedicated form for employers to submit new job listings.
-- Form Fields: Job Title, Company Name, Location, Salary (Number), Job Type (Dropdown), Job Description, and Required Qualifications.
-
-- Validation: Ensures all fields are correctly filled before submission.
-- Toast Messages: Provides user feedback (e.g., "Job Posted Successfully!").
+- Provides a dedicated form for employers to post new job listings
+- Accepts job details such as title, company name, location, salary, job type, description, and qualifications
+- Validates all form fields before submission
+- Displays toast messages for user feedback (e.g., successful job posting)
 
 **Responsive Design**
-- The application and navigation bar adapt seamlessly to different screen sizes.
+- Adapts the application layout and navigation bar across all screen sizes
 
 ## API Reference
 
